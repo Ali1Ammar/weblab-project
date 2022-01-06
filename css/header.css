@@ -1,0 +1,75 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+header div {
+  display: flex;
+}
+header img {
+  height: 59px;
+  margin: 10px;
+  margin-right: 20px;
+}
+nav {
+  align-self: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #7604aa;
+}
+
+.active:hover {
+  background-color: #40045c;
+}
+
+#shopcart img {
+  text-align: right;
+  text-align: right;
+  height: 25px;
+  align-self: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  max-width: 600px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content * {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
