@@ -5,6 +5,7 @@ document.querySelectorAll(".addcart").forEach((v) => {
     title = v.target.parentNode.querySelector("h4").innerHTML;
     cartItems[title] ??= 0;
     cartItems[title]++;
+    alert("added yo the cart (check cart icon at right corner)");
     reCalcShopCart();
   });
 });

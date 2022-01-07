@@ -2,6 +2,7 @@
 #slider img{
  height: 300px;
  border: #717171 solid 1px;
+ width: 100%;
 }
 
 /* #slider{
