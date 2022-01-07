@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>E-Store</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/header.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/slider.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/card.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/button.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/color-cir.css'>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <img id="logo" src="logo.svg">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li class="dropdown active"><a href="">Categorty &#x25BC;</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="">Mobile</a></li>
+                                <li><a href="">Desktop</a></li>
+                                <li><a href="">Camera</a></li>
+                                <li><a class="active" href="">laptop</a></li>
+                                <li><a href="">Mobile</a></li>
+                                <li><a href="">Desktop2</a></li>
+                                <li><a href="">Camera2</a></li>
+                                <li><a href="">laptop2</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div>
+            <div id="shopcart">
+                <span id="shopcartNum">0</span>
+                <img src="shopcart.svg">
+            </div>
+            <div id="shopcart-dropdown" class="card card-4">
+                Your cart is empty
+                Start add items to NOW
+            </div>
+        </div>
+
+    </header>
+
+    <div style="margin-top: 79px; visibility: visible;"></div>
+    <section id="main-item">
+
+
+        <div class="row itemspic">
+            <div>
+                <h2>
+                    Huawei MateBook Core i7
+                </h2>
+                <div class="row">
+                    <span class="label">
+                        CPU
+                    </span>
+                    <span class="val">
+                        core i7 9850HQ
+                    </span>
+                </div>
+
+                <div class="row">
+                    <span class="label">
+                        RAM
+                    </span>
+                    <span class="val">
+                        12GB DDR5
+                    </span>
+                </div>
+                <div class="row">
+                    <span class="label">
+                        GPU
+                    </span>
+                    <span class="val">
+                        ATI 4550
+                    </span>
+                </div>
+                <div class="row">
+                    <span class="label">
+                        Hard Disk
+                    </span>
+                    <span class="val">
+                        256GB SSD + 1TB hdd
+                    </span>
+                </div>
+                <div class="row">
+                    <span class="label">
+                        Screen
+                    </span>
+                    <span class="val">
+                        14 Inch touch
+                    </span>
+                </div>
+                <div class="row">
+                    <span class="label">
+                        Operating System
+                    </span>
+                    <span class="val">
+                        Ubuntu 20.1
+                    </span>
+                </div>
+            </div>
+            <img src="images/cca31de3-3b75-4932-af96-7646b7eba6c7__DSC3630-Edit-cropped.webp" style="width:50%">
+
+        </div>
+
+        <form id='formcart' class="card card-3">
+            <div>
+                <input placeholder="name">
+            </div>
+            <div>
+                <input placeholder="Phone">
+            </div>
+            <div>
+                <input placeholder="adress">
+            </div>
+            <div class="choice-color-row">
+                <label>choice Color </label>
+                <input type="radio" name="radio" class="blueviolet" checked />
+                <input type="radio" name="radio" class="red" />
+                <input type="radio" name="radio" class="yellow" />
+                <input type="radio" name="radio" class="white" />
+                <input type="radio" name="radio" class="black" />
+            </div>
+
+
+            <input type="submit" value="Buy Now" class="button-three buy-btn" onclick="alert('Buy Done')">
+        </form>
+
+
+    </section>
+    <footer style="  position: absolute;    ">
+        <p>Copyright &copy; 2022</p> <img src="logo.svg" alt="logo">
+        <p> All Rights Reserved.</p>
+    </footer>
+</body>
+<script src='main.js'></script>
+<!-- <script src="js/slider.js"></script> -->
+
+</html>

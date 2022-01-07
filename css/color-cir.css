@@ -1,0 +1,53 @@
+input[type="radio"] {
+  appearance: none;
+  font: inherit;
+  color: rgb(119, 119, 119);
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+}
+
+input[type="radio"]:hover {
+  transform: scale(1.3);
+  transition: all 100 ease-in-out;
+}
+
+input[type="radio"]:checked {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+}
+
+.color-cir:hover {
+  transform: scale(1.3);
+  transition: all 100 ease-in-out;
+}
+
+.color-cir {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: aqua;
+  display: block;
+  margin-left: 5px;
+}
+
+.blueviolet {
+  background-color: blueviolet;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
